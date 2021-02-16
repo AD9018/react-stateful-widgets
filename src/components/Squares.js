@@ -27,6 +27,7 @@ export default function Squares() {
   const [squares, setSquares] = useState(listOfSquareIds);
   console.log(squares);
   const [activeSquare, setActiveSquare] = useState(null);
+
   const getClassName = (id) => {
     // This is NOT a click handler but a helper, used inside the JSX (see below).
     // It should return a string containing the class name of 'active', if the id passed
